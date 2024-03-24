@@ -9,7 +9,7 @@ console.log(GameName[0]);
 console.log(GameName.__proto__);
 console.log(GameName.length);
 console.log(GameName.toUpperCase());
-console.log(GameName.charAt('5'));
+console.log(GameName.charAt('14')+" INVESTIGATING");
 console.log(GameName.indexOf('a'));
 const newString=GameName.substring(0,3);/*--> This newString will not include the element on the 3rd
 index of GameName init*/
@@ -29,7 +29,25 @@ console.log(newStringOne.replace(" ","$"));
 const url="https://hamza.com/hamza%20haqqani";
 console.log(url);
 console.log(url.replace('a','$'));
+
+console.log(url.replaceAll('a','$'));/*--> By this we can replace all the symbols
+ of a character in a string
+*/
+
 console.log(url.split('a'));/*--> This splits the string by a given key word and does not includes 
 after splitting the string in result*/
+
+//##############################################PADEND/#################################################################
+
+const str1 = 'Breaded Mushrooms';
+
+console.log(str1.padEnd(25, '.'));
+// Expected output: "Breaded Mus/hrooms........"
+
+const str2 = '200';
+
+console.log(str2.padEnd(5))+" "+str2.length;
+// Expected output: "200  "
+
 
 
