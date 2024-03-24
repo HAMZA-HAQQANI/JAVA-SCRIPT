@@ -1,1 +1,35 @@
 console.log("MY GOAL IS TO BUILD MOST UNIQUE SOFTWARES");
+//*******************************STRING ****************************************
+const name="HAMZA HAQQANI";
+const repoCount=56;
+console.log(`Assalam o Alaikum my name is ${name} and my repoCount is ${repoCount}`);
+
+const GameName= new String('H-SQUaRE');
+console.log(GameName[0]);
+console.log(GameName.__proto__);
+console.log(GameName.length);
+console.log(GameName.toUpperCase());
+console.log(GameName.charAt('5'));
+console.log(GameName.indexOf('a'));
+const newString=GameName.substring(0,3);/*--> This newString will not include the element on the 3rd
+index of GameName init*/
+
+console.log(newString);
+//const anotherString= new GameName.slice(8,4);
+//console.log(anotherString);
+const newStringOne="        *    HAMZA    ";
+console.log(newStringOne.length);
+console.log(newStringOne.trim());
+console.log(newStringOne.trimStart());
+console.log(newStringOne.trimEnd());
+console.log(" TESTING TH REPLACEMENT");
+console.log(newStringOne.replace(" ",""));/* --> This has replaced only the first " " (space)*/
+console.log(newStringOne);
+console.log(newStringOne.replace(" ","$"));
+const url="https://hamza.com/hamza%20haqqani";
+console.log(url);
+console.log(url.replace('a','$'));
+console.log(url.split('a'));/*--> This splits the string by a given key word and does not includes 
+after splitting the string in result*/
+
+
