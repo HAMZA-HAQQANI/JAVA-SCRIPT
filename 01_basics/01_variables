@@ -1,6 +1,8 @@
 console.log("MY GOAL IS TO BUILD MOST UNIQUE SOFTWARES");
 //*******************************STRING ****************************************
 const name="HAMZA HAQQANI";
+const name="HAMZA HAQQANI";
+const repoConnetions=12345;
 const repoCount=56;
 console.log(`Assalam o Alaikum my name is ${name} and my repoCount is ${repoCount}`);
 
@@ -67,4 +69,6 @@ console.log(`An index of ${index} returns the character ${sentence.at(index)}`);
 2:charAT()
 charAt() also works as at() but at() is more profician because at() allows to check 
 character of string from last index too ie in reverse order.
+
+HAMZA HAQQANI
 
